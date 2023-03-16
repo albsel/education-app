@@ -21,3 +21,22 @@ faqsEl.forEach((faq) => {
     }
   });
 });
+
+// Show/hide navbar menu
+const menu = document.querySelector(".nav__menu");
+const openMenuBtn = document.getElementById("open-menu-btn");
+const closeMenuBtn = document.getElementById("close-menu-btn");
+
+// Open nav menu
+openMenuBtn.addEventListener("click", () => {
+  menu.style.display = "flex";
+  closeMenuBtn.style.display = "inline-block";
+  openMenuBtn.style.display = "none";
+});
+
+// Close nav menu
+closeMenuBtn.addEventListener("click", () => {
+  menu.style.display = "none";
+  closeMenuBtn.style.display = "none";
+  openMenuBtn.style.display = "inline-block";
+});
