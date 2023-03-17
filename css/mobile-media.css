@@ -26,6 +26,9 @@
   }
 
   /* CATEGORIES  */
+  .categories {
+    margin-top: 2rem;
+  }
   .categories__left {
     text-align: center;
   }
