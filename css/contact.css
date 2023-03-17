@@ -76,6 +76,9 @@ textarea {
   cursor: pointer;
   margin-top: 1rem;
 }
+.contact__form .btn:hover {
+  cursor: pointer;
+}
 
 /* MEDIA QUERIES FOR TABLETS  */
 @media screen and (max-width: 1024px) {

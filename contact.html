@@ -35,7 +35,7 @@
     <!-- Swiper JS  -->
     <title>Education App</title>
   </head>
-  <body>
+  <body style="background-image: url('./images/bg-texture.png')">
     <!-- <<<<<<<<<<<< NAVBAR >>>>>>>>>>>>> -->
     <nav>
       <div class="container nav__container">
@@ -96,7 +96,11 @@
           </ul>
         </aside>
 
-        <form class="contact__form">
+        <form
+          action="https://formspree.io/f/xeqwzbdw"
+          method="POST"
+          class="contact__form"
+        >
           <div class="form__name">
             <input
               type="text"
@@ -123,7 +127,9 @@
             placeholder="Message"
             required
           ></textarea>
-          <button type="submit" class="btn btn-primary">Send Message</button>
+          <button type="submit" class="btn btn-primary" id="btn">
+            Send Message
+          </button>
         </form>
       </div>
     </section>
