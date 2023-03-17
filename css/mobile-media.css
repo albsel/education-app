@@ -20,6 +20,9 @@
   .header__left p {
     margin-bottom: 1.3rem;
   }
+  .header__right {
+    margin: 2rem 0 2rem;
+  }
 
   /* CATEGORIES  */
   .categories__left {
